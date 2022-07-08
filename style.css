@@ -133,3 +133,44 @@ body {
 .img-box img {
     width: 100%;
 }
+
+.plans {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.plans h1 {
+    padding: 25px;
+    margin-top: 50px;
+    font-size: 40px;
+    font-weight: 600;
+}
+
+
+.contents {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 75px;
+}
+
+.content-box {
+    width: 270px;
+    padding: 25px; 
+    text-align: justify;
+    margin: 15px 25px;
+    box-shadow: 15px 15px 35px rgb(0, 0, 0);
+    border: 1px solid #777;
+    border-radius: 10px;
+    transition: 1s all ease;
+}
+
+.content-box h1{
+    margin: 0 !important;
+    font-size: 50px;
+    font-weight: 600;
+    text-align: center;
+    padding: 15px;
+}
