@@ -8,3 +8,116 @@
 body {
     font-family: 'Roboto', sans-serif;
 }
+
+.flex-width {
+    width: 45%;
+}
+
+.header {
+    height: 100vh;
+    background-color: #000;
+}
+
+.branding {
+    padding: 15px 0;
+    color: #fff;
+    font-size: 25px;
+    font-weight: 600;
+}
+.branding h1 {
+    overflow: hidden;
+    border-right: 1.3px solid #fff;
+    white-space: nowrap;
+    margin: 0 auto;
+    letter-spacing: 1px;
+    animation: typing 3.5s steps(60, end),
+    blink-cursor .75s step-end infinite ;
+}
+
+@keyframes typing {
+    from {
+        width: 0
+    }
+    to {
+        width: 100%
+    }
+}
+
+@keyframes blink-cursor {
+    from, to {
+        border-color: transparent
+    }
+    50% {
+        border-color: orange;
+    }
+}
+
+.navBar{
+    display: flex;
+    justify-content: space-around;
+}
+
+.navMenu {
+    display: flex;
+    background-color: #000;
+}
+
+.navMenu li {
+    padding: 25px;
+    list-style: none;
+}
+
+.navMenu li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.banner {
+    display: flex;
+}
+
+.desc {
+    padding: 30px;
+    margin: 0 2%;
+    margin-top: 3%;
+    margin-left: 100px;
+    color: #fff;
+}
+
+.desc h3 {
+    color: red;
+    padding: 15px 0;
+}
+
+.desc h1 {
+    font-size: 40px;
+    font-weight: 600;
+    padding: 15px 0;
+}
+
+.desc p {
+    padding: 15px 0;
+}
+
+.btn {
+    display: inline-block;
+    text-decoration: none;
+    color: #fff;
+    background-color: red;
+    padding: 20px 50px;
+    margin-top: 25px;
+    border-radius: 5px;
+    font-size: 18px;
+}
+
+.img-box {
+    padding: 35px;
+    margin: 0 2%;
+    margin-top: 5px;
+}
+
+.img-box img {
+    width: 100%;
+}
