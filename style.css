@@ -91,7 +91,6 @@ body {
 .desc {
   padding: 30px;
   margin: 0 2%;
-  margin-top: 3%;
   margin-left: 100px;
   color: #fff;
 }
@@ -117,10 +116,10 @@ body {
   color: #fff;
   background-color: red;
   padding: 20px 50px;
-  margin-top: 25px;
+  margin: 25px;
   border-radius: 5px;
   font-size: 18px;
-  cursor: url("https://i.ibb.co/K94VHCL/tap.png"), auto;
+  cursor: url("img/icon/cursor1.png"), auto;
 }
 
 .btn:hover {
@@ -255,8 +254,7 @@ body {
   margin-top: 25px;
 }
 
-.about-btn,
-.btn-join:hover {
+.about-btn:hover {
   background-color: dodgerblue;
 }
 
@@ -349,6 +347,9 @@ h1 {
   padding: 10px 20px;
   border-radius: 5px;
   color: #fff;
+}
+.btn-join:hover {
+  background-color: dodgerblue;
 }
 
 .footer {
