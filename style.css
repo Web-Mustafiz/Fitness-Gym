@@ -293,13 +293,21 @@ body {
   color: #fff;
 }
 
+.our-services {
+  margin-top: 50px;
+  margin-bottom: 75px;
+}
+
 .services {
   display: flex;
   justify-content: space-evenly;
+  margin-top: 30px;
 }
 
 .service {
   width: 25%;
+  box-shadow: 2px 2px 5px #777;
+  border-radius: 10px;
 }
 
 .service img {
@@ -311,10 +319,67 @@ body {
   padding: 20px 10px;
 }
 
+.service-description h4 {
+  color: #e21717;
+  padding: 10px 0;
+  text-transform: capitalize;
+}
+
+.service-description h2,
+h1 {
+  padding: 10px 0;
+}
+
+.service-description span {
+  display: inline-block;
+  padding: 10px 0;
+  text-transform: capitalize;
+}
+
+.price {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
 .btn-join {
+  display: inline-block;
   background-color: #e21717;
   text-decoration: none;
   padding: 10px 20px;
   border-radius: 5px;
   color: #fff;
+}
+
+.footer {
+  padding: 75px 15px;
+}
+
+.social {
+  display: flex;
+  justify-content: center;
+  padding: 50px 0;
+}
+
+.social a {
+  text-decoration: none;
+  color: #161616;
+  font-size: 18px;
+  font-weight: 600;
+  padding: 0 25px;
+}
+
+.social a:hover {
+  color: #e21717;
+  text-decoration: underline;
+}
+
+.footer p {
+  text-align: center;
+  color: #161616;
+}
+
+.footer p span {
+  color: orangered;
+  font-weight: 600;
 }
