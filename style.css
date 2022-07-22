@@ -5,6 +5,7 @@
 * {
   margin: 0;
   padding: 0;
+  transition: 0.8s all ease;
 }
 
 body {
@@ -141,6 +142,7 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  margin-bottom: 75px;
 }
 
 .plans h1 {
@@ -162,7 +164,7 @@ body {
   padding: 25px;
   text-align: justify;
   margin: 15px 25px;
-  box-shadow: 15px 15px 35px rgb(0, 0, 0);
+  box-shadow: 2px 2px 5px #777;
   border: 1px solid #777;
   border-radius: 10px;
   transition: 1s all ease;
@@ -205,17 +207,17 @@ body {
 }
 
 .about-img1 img {
-  height: 480px;
+  height: 500px;
   margin-top: 50px;
   padding: 20px;
-  transform: skewX(-15deg);
+  transform: skewY(-15deg);
 }
 
 .about-img2 img {
-  height: 480px;
+  height: 500px;
   margin-top: 50px;
   padding: 20px;
-  transform: skewX(-15deg);
+  transform: skewY(-15deg);
 }
 
 .about-right {
@@ -240,4 +242,79 @@ body {
 .list-container li {
   list-style: square;
   padding: 7px 0;
+}
+
+.about-btn {
+  display: inline-block;
+  padding: 20px 40px;
+  background-color: #e21717;
+  color: #fff;
+  font-size: 18px;
+  font-weight: 500;
+  border-radius: 10px;
+  margin-top: 25px;
+}
+
+.about-btn,
+.btn-join:hover {
+  background-color: dodgerblue;
+}
+
+.inquery {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin: 50px 0;
+}
+
+.inquery-box {
+  display: flex;
+  width: 60%;
+  height: 200px;
+  background-image: url("img/shape/bgshape.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.btn-chat {
+  background-color: #ddd;
+  text-decoration: none;
+  padding: 10px 30px;
+  border-radius: 5px;
+  color: #161616;
+}
+
+.btn-chat:hover {
+  background-color: #e21717;
+  color: #fff;
+}
+
+.services {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.service {
+  width: 25%;
+}
+
+.service img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.service-description {
+  padding: 20px 10px;
+}
+
+.btn-join {
+  background-color: #e21717;
+  text-decoration: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  color: #fff;
 }
